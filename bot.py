@@ -59,14 +59,14 @@ requestRegex = "#[rR][eE][qQ][uU][eE][sS][tT] "
 async def startHandler(bot:Update, msg:Message):
     botInfo = await bot.get_me()
     await msg.reply_text(
-        "<b>ɴᴀᴍᴀsᴛᴇ , ɪ ᴀᴍ  ᴄʀᴏᴡɴ ʀᴇǫᴜᴇsᴛ ᴛʀᴀᴄᴋᴇʀ ʙᴏᴛ🤖.\nɪғ ʏᴏᴜ ʜᴀᴅɴ'ᴛ ᴀᴅᴅᴇᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ & ᴄʜᴀɴɴᴇʟ ᴛʜᴇɴ ➕ᴀᴅᴅ ᴍᴇ ɴᴏᴡ..\n\n⁉️ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ⁉️</b>\n\n\t𝟷. ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ & ᴄʜᴀɴɴᴇʟ.\n\n\t𝟸. ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟ & ɢʀᴏᴜᴘ...\n\n\t𝟹.ɢɪᴠᴇ ᴘᴇʀᴍɪssɪᴏɴ ᴛᴏ ᴘᴏsᴛ, ᴇᴅɪᴛ & ᴅᴇʟᴇᴛᴇ ᴍᴀssᴀɢᴇ.\n\n\t𝟺. ɴᴏᴡ sᴇɴᴅ ɢʀᴏᴜᴘ ɪᴅ & ᴄʜᴀɴɴᴇʟ ɪᴅ ɪɴ ᴛʜɪs ғᴏʀᴍᴀᴛ <code>/add GroupID ChannelID</code>.\n\nɴᴏᴡ ʙᴏᴛ ɪs ʀᴇᴀᴅʏ ᴛᴏ ʙᴇ ᴜsᴇᴅ...\n\n<b>😊ᴊᴏɪɴ @projectcrown & @ᴄʀᴏᴡɴʙᴏᴛᴢsᴜᴘᴘᴏʀᴛ ғᴏʀ ɢᴇᴛᴛɪɴɢ ᴍᴏʀᴇ ᴀᴡᴇsᴏᴍᴇ 🤖ʙᴏᴛs ʟɪᴋᴇ ᴛʜɪs. .</b>",
+        "<b>Hello , I am request tracker bot🤖.\nɪғ ʏᴏᴜ ʜᴀᴅɴ'ᴛ ᴀᴅᴅᴇᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ & ᴄʜᴀɴɴᴇʟ ᴛʜᴇɴ ➕ᴀᴅᴅ ᴍᴇ ɴᴏᴡ..\n\n⁉️ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ⁉️</b>\n\n\t𝟷. ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ & ᴄʜᴀɴɴᴇʟ.\n\n\t𝟸. ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟ & ɢʀᴏᴜᴘ...\n\n\t𝟹.ɢɪᴠᴇ ᴘᴇʀᴍɪssɪᴏɴ ᴛᴏ ᴘᴏsᴛ, ᴇᴅɪᴛ & ᴅᴇʟᴇᴛᴇ ᴍᴀssᴀɢᴇ.\n\n\t𝟺. ɴᴏᴡ sᴇɴᴅ ɢʀᴏᴜᴘ ɪᴅ & ᴄʜᴀɴɴᴇʟ ɪᴅ ɪɴ ᴛʜɪs ғᴏʀᴍᴀᴛ <code>/add GroupID ChannelID</code>.\n\nɴᴏᴡ ʙᴏᴛ ɪs ʀᴇᴀᴅʏ ᴛᴏ ʙᴇ ᴜsᴇᴅ...\n\n<b>😊ᴊᴏɪɴ @cinemaxforall ғᴏʀ ɢᴇᴛᴛɪɴɢ ᴍᴏʀᴇ ᴀᴡᴇsᴏᴍᴇ 🤖ʙᴏᴛs ʟɪᴋᴇ ᴛʜɪs. .</b>",
         parse_mode = "html",
         reply_markup = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕Add me to your Group.",
-                        url = f"https://telegram.me/{botInfo.username}?startgroup=true"
+                        "Cinemax",
+                        url = f"https://t.me/cinemaxforall"
                     )
                 ]
             ]
@@ -90,7 +90,7 @@ async def forwardedHandler(bot:Update, msg:Message):
     forwardInfo = msg.forward_from_chat
     if forwardInfo.type == "channel":   # If message forwarded from channel
         await msg.reply_text(
-            f"<b>Hey😁, Your Channel ID is <code>{forwardInfo.id}</code>\n\n😊Join @projectcrown & @crownbotzsupport for getting more awesome 🤖bots like this.</b>",
+            f"<b>Hey😁, Your Channel ID is <code>{forwardInfo.id}</code>\n\n😊Join @cinemaxforall for getting more awesome 🤖bots like this.</b>",
             parse_mode = "html"
         )
     return
@@ -137,12 +137,12 @@ async def groupChannelIDHandler(bot:Update, msg:Message):
                     botSelfGroup = await bot.get_chat_member(int(groupID), 'me')
                 except (PeerIdInvalid, ValueError):   # If given group id is invalid
                     await msg.reply_text(
-                        "<b>😒Group ID is wrong.\n\n😊Join @projectcrown & @crownbotzsupport for getting more awesome 🤖bots like this.</b>",
+                        "<b>😒Group ID is wrong.\n\n😊Join @cinemaxforall for getting more awesome 🤖bots like this.</b>",
                         parse_mode = "html"
                     )
                 except UserNotParticipant:  # If bot is not in group
                     await msg.reply_text(
-                        "<b>😁Add me in group and make me admin, then use /add.\n\n😊Join @projectcrown & @crownbotzsupport for getting more awesome 🤖bots like this.</b>",
+                        "<b>😁Add me in group and make me admin, then use /add.\n\n😊Join @cinemaxforall for getting more awesome 🤖bots like this.</b>",
                         parse_mode = "html"
                     )
                 else:
@@ -161,7 +161,7 @@ async def groupChannelIDHandler(bot:Update, msg:Message):
                             )
                         except (ChatIdInvalid, ChannelInvalid): # If given channel id is invalid
                             await msg.reply_text(
-                                "<b>😒Channel ID is wrong.\n\n😊Join @projectcrown & @crownbotzsupport for getting more awesome 🤖bots like this.</b>",
+                                "<b>😒Channel ID is wrong.\n\n😊Join @cinemaxforall for getting more awesome 🤖bots like this.</b>",
                                 parse_mode = "html"
                             )
                         else:
@@ -177,12 +177,12 @@ async def groupChannelIDHandler(bot:Update, msg:Message):
                                     }
                                 )
                                 await msg.reply_text(
-                                    "<b>Your Group and Channel has now been added SuccessFully🥳.\n\n😊Join @projectcrown & @crownbotzsupport for getting more awesome 🤖bots like this.</b>",
+                                    "<b>Your Group and Channel has now been added SuccessFully🥳.\n\n😊Join @cinemaxforall for getting more awesome 🤖bots like this.</b>",
                                     parse_mode = "html"
                                 )
     else:   # If command is invalid
         await msg.reply_text(
-            "<b>Invalid Format😒\nSend Group ID & Channel ID in this format <code>/add GroupID ChannelID</code>.\n\n😊Join @projectcrown & @crownbotzsupport for getting more awesome 🤖bots like this.</b>",
+            "<b>Invalid Format😒\nSend Group ID & Channel ID in this format <code>/add GroupID ChannelID</code>.\n\n😊Join @cinemaxforall for getting more awesome 🤖bots like this.</b>",
             parse_mode = "html"
         )
     return
@@ -222,7 +222,7 @@ async def channelgroupRemover(bot:Update, msg:Message):
                     break
             else:   # If group id not found in database
                 await msg.reply_text(
-                    "<b>Given Group ID is not found in our Database🤔.\n\n😊Join @projectcrown & @crownbotzsupport for getting more awesome 🤖bots like this.</b>",
+                    "<b>Given Group ID is not found in our Database🤔.\n\n😊Join @cinemaxforall for getting more awesome 🤖bots like this.</b>",
                     parse_mode = "html"
                 )
     else:   # If command is invalid
@@ -292,7 +292,7 @@ async def requestHandler(bot:Update, msg:Message):
                 )
             )
 
-            replyText = f"<b>👋 Hello {mentionUser} !!\n\n📍 Your Request for {contentRequested} has been submitted to the admins.\n\n🚀 Your Request Will Be Uploaded soon.\n📌 Please Note that Admins might be busy. So, this may take more time.\n\n👇 See Your Request Status Here 👇</b>"
+            replyText = f"<b>👋 Hello {mentionUser} !!\n\n📍 Your Request for {contentRequested} has been submitted to the admins.\n\n🚀 Your Request Will Be Uploaded soon.\n📌 Please Note that Admins might be busy. So, this may take more time.\n\n👇 See Your Request Status Here 👇. Jon @cinemaxforall</b>"
 
             # Sending message for user in group
             await msg.reply_text(
